@@ -53,3 +53,44 @@ Fener vs Panathinaikos — Head-to-Head Summary
 Total games: 34
 Fener wins:  16
 PAO wins:    18
+```
+
+---
+
+## 📊 Visual Results
+
+The following charts illustrate key outcomes from the project’s data analysis, modeling, and rivalry exploration.
+
+### 🧠 Model Evaluation — Confusion Matrix
+<img src="images/confusion_matrix.png" width="380"/>
+
+> *The confusion matrix for Logistic Regression shows perfect classification accuracy — revealing post-game stat leakage and emphasizing the importance of proper feature engineering.*
+
+---
+
+### ⚙️ Feature Importance — Random Forest
+<img src="images/feature_importance.png" width="450"/>
+
+> *Top statistical indicators for home wins include overall valuation, points scored, and shooting percentages — offering interpretable insights into what drives success.*
+
+---
+
+### 🏀 Fenerbahçe vs Panathinaikos — Wins per Season
+<img src="images/fener_pana_wins.png" width="600"/>
+
+> *A rivalry summary extracted from 17+ seasons of Euroleague data — 34 total games, with Fenerbahçe winning 16 and Panathinaikos 18. The chart highlights competitive balance and key seasons such as 2016.*
+
+---
+
+## 🧩 Project Summary
+This project demonstrates the full lifecycle of a data engineering workflow:
+- Data ingestion and cleaning of multi-season Euroleague datasets  
+- Feature integration from boxscores, team stats, and outcomes  
+- Machine learning modeling for win prediction  
+- Real-world storytelling through exploratory analysis  
+
+📘 *Built entirely with Python, Pandas, and Scikit-Learn.*
+
+---
+
+
