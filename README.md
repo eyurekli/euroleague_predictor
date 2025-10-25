@@ -93,4 +93,26 @@ This project demonstrates the full lifecycle of a data engineering workflow:
 
 ---
 
+## ⚙️ Setup & Dependencies
+python -m venv .venv
+source .venv/Scripts/activate  # or .venv/bin/activate on mac/linux
+pip install --upgrade pip setuptools wheel
+pip install --only-binary=:all: numpy scipy pandas scikit-learn matplotlib
+
+💡 Future Work
+
+Add rolling-window features (last 5 games averages) to create a true pre-game predictor.
+
+Build a Streamlit dashboard to simulate upcoming match predictions.
+
+Integrate live Euroleague API for continuous updates.
+
+🧑‍💻 Author
+
+Ekin Y.
+
+Computer Science @ Dalhousie University
+
+AI/ML Intern @ Trench Canada (Summer & Fall 2025)
+
 
